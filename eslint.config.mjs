@@ -11,6 +11,7 @@ export default defineConfig([
       },
     },
     extends: ["eslint:recommended", "plugin:prettier/recommended"],
+    plugins: ["prettier"],
   },
   {
     files: ["**/*.js"],

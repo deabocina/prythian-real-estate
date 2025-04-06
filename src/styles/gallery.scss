@@ -133,10 +133,9 @@ body {
       width: 200px;
       background-color: #1e1e1e;
       border: 1px solid #555;
-      color: #fff;
+      color: $primary-color;
       font-size: 14px;
 
-      &:focus,
       &:focus {
         outline: none;
         border-color: $secondary-color;

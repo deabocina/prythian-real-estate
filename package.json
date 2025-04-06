@@ -8,8 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "compile": "sass src/styles.scss",
-    "lint": "npm run stylelint",
-    "stylelint": "stylelint './src/styles/**/*.scss'"
+    "lint": "npx stylelint ./src/styles/**/*.scss"
   },
   "devDependencies": {
     "@eslint/js": "^9.24.0",

@@ -5,7 +5,8 @@ $accent-color: black;
 $text-color: #333;
 
 .homepage {
-  background: linear-gradient(rgb(0 0 0 / 100%), rgb(0 0 0 / 80%)),
+  background:
+    linear-gradient(rgb(0 0 0 / 100%), rgb(0 0 0 / 80%)),
     url("/src/assets/backgrounds/home.jpg");
   background-size: cover;
   background-position: center;
@@ -174,7 +175,6 @@ section {
   }
 
   .testimonial {
-    margin-top: 40px;
     background-color: rgb(0 0 0 / 5%);
     padding: 30px;
     border-radius: 8px;
