@@ -1,0 +1,11 @@
+{
+  "extends": ["stylelint-config-standard", "stylelint-scss"],
+  "rules": {
+    "color-hex-case": "lower",
+    "color-hex-length": "short",
+    "max-empty-lines": 1,
+    "no-eol-whitespace": true,
+    "no-missing-end-of-source-newline": true,
+    "block-no-empty": true
+  }
+}
