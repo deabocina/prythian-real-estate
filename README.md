@@ -2,7 +2,7 @@
 
 **Prythian Real Estate** is a modern real estate finder app that allows you to view detailed property information such as price, size, location, and amenities, along with photos.
 
-![Prythian Real Estate](./prythian-real-estate/public/screenshots/showcase.png)
+![Prythian Real Estate](./public/screenshots/showcase.png)
 
 ## Project Setup Guide
 
