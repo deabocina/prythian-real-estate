@@ -4,6 +4,34 @@
 
 ![Prythian Real Estate](./public/screenshots/showcase.png)
 
+## 🏘️ Explore Real Estate Listings
+
+Find your dream home effortlessly!
+
+- Browse available properties across different categories and price ranges.
+- See essential info like **location**, **size**, **price** and **amenities** at a glance.
+
+## 🔍 Smart Property Search
+
+Easily find what you're looking for!
+
+- Search properties by name, location, area or price.
+- **Filter through listings** with ease to find exactly what fits your needs.
+
+## 🖼️ Property Images
+
+See it before you visit!
+
+- Every property comes with a dedicated image to give you a clear idea of what to expect.
+- A **visual-first approach** to browsing real estate.
+
+## 🗺️ Interactive Map
+
+Get the bigger picture!
+
+- View the location of our real estate office directly on an **interactive map**.
+- Built using **Leaflet.js** for smooth and responsive navigation.
+
 ## Project Setup Guide
 
 This guide will walk you through setting up a Vite project with vanilla JavaScript and adding Sass for styling.
@@ -24,7 +52,7 @@ If it's not installed, download it from (https://nodejs.org/en) nodejs.org and i
 Open your terminal and run the following command:
 
 ```
-git clone https://autocode.git.epam.com/deabocina9/capstone-project-template.git
+git clone https://github.com/deabocina/prythian-real-estate.git
 ```
 
 ### 3️⃣ Install Project Dependencies
@@ -58,31 +86,3 @@ npm run dev
 ```
 
 This will launch a local server (default: http://localhost:5173/). You should now see the project running in your browser.
-
-## 🏘️ Explore Real Estate Listings
-
-Find your dream home effortlessly!
-
-- Browse available properties across different categories and price ranges.
-- See essential info like **location**, **size**, **price** and **amenities** at a glance.
-
-## 🔍 Smart Property Search
-
-Easily find what you're looking for!
-
-- Search properties by name, location, area or price.
-- **Filter through listings** with ease to find exactly what fits your needs.
-
-## 🖼️ Property Images
-
-See it before you visit!
-
-- Every property comes with a dedicated image to give you a clear idea of what to expect.
-- A **visual-first approach** to browsing real estate.
-
-## 🗺️ Interactive Map
-
-Get the bigger picture!
-
-- View the location of our real estate office directly on an **interactive map**.
-- Built using **Leaflet.js** for smooth and responsive navigation.
