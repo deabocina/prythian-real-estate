@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="ico" href="/logo.ico" />
+    <link rel="stylesheet" href="/prythian-real-estate/assets/main.css" />
+    <link rel="stylesheet" href="/prythian-real-estate/assets/gallery.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery | Prythian Real Estate</title>
+    <script type="module" src="/src/functions/properties.js" defer></script>
+  </head>
+  <body>
+    <div id="#home" class="homepage">
+      <header class="header-links">
+        <nav>
+          <div class="dropdown">
+            <a href="/prythian-real-estate/" class="dropbtn">Home</a>
+            <div class="submenu">
+              <ul>
+                <li><a href="/prythian-real-estate/#about-us">About Us</a></li>
+                <li><a href="/prythian-real-estate/#services">Services</a></li>
+                <li><a href="/prythian-real-estate/#testimonials">Testimonials</a></li>
+              </ul>
+            </div>
+          </div>
+          <a href="/prythian-real-estate/pages/gallery.html">Gallery</a>
+          <a href="/prythian-real-estate/pages/contacts.html">Contacts</a>
+        </nav>
+      </header>
+
+      <h1>All Properties</h1>
+      <hr />
+
+      <div class="search">
+        <input type="search" placeholder="Search.." />
+        <img src="/src/assets/icons/search.png" />
+      </div>
+
+      <div class="filters">
+        <label for="sort">Sort by price</label>
+        <select id="sort">
+          <option value="asc">Lowest to Highest</option>
+          <option value="desc">Highest to Lowest</option>
+        </select>
+
+        <label for="size">Min. Size (m²)</label>
+        <input type="number" id="size" placeholder="e.g. 100" />
+
+        <label for="price">Max. Price (€):</label>
+        <input type="number" id="price" placeholder="e.g. 500000" />
+
+        <label for="location">Location</label>
+        <select id="location">
+          <option value="">All</option>
+          <option value="Dublin, Ireland">Dublin</option>
+          <option value="Cork, Ireland">Cork</option>
+          <option value="Galway, Ireland">Galway</option>
+          <option value="Limerick, Ireland">Limerick</option>
+          <option value="Belfast, Ireland">Belfast</option>
+          <option value="Derry, Ireland">Derry</option>
+          <option value="Kilkenny, Ireland">Kilkenny</option>
+          <option value="Waterford, Ireland">Waterford</option>
+        </select>
+
+        <label for="amenities">Amenities</label>
+        <input type="text" id="amenities" placeholder="e.g. Pool, Garage" />
+
+        <button id="apply-filters">Filter</button>
+      </div>
+
+      <div id="properties-container"></div>
+      <button id="show-more">Show More</button>
+      <div id="pagination-controls"></div>
+    </div>
+
+    <footer>
+      <h4>&copy; 2025 <span>Prythian Real Estate</span></h4>
+      <img class="logo-image" src="/src/assets/icons/logo.png" />
+
+      <a href="#"
+        ><img src="/src/assets/icons/up-arrow.png" alt="Back to top"
+      /></a>
+    </footer>
+  </body>
+</html>
