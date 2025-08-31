@@ -1,0 +1,164 @@
+{
+  "houses": [
+    {
+      "id": 1,
+      "price": 450000,
+      "size": 204.39,
+      "location": "Dublin, Ireland",
+      "amenities": ["Pool", "Garage", "Garden", "Fireplace"],
+      "image": "/prythian-real-estate/src/assets/images/house0.jpg"
+    },
+    {
+      "id": 2,
+      "price": 350000,
+      "size": 167.22,
+      "location": "Cork, Ireland",
+      "amenities": ["Garage", "Smart Home", "Patio"],
+      "image": "/prythian-real-estate/src/assets/images/house2.jpg"
+    },
+    {
+      "id": 3,
+      "price": 525000,
+      "size": 232.26,
+      "location": "Galway, Ireland",
+      "amenities": ["Pool", "Ocean View", "Gym", "Terrace"],
+      "image": "/prythian-real-estate/src/assets/images/house3.jpg"
+    },
+    {
+      "id": 4,
+      "price": 299000,
+      "size": 148.64,
+      "location": "Limerick, Ireland",
+      "amenities": ["Mountain View", "Basement", "Garage"],
+      "image": "/prythian-real-estate/src/assets/images/house4.jpg"
+    },
+    {
+      "id": 5,
+      "price": 700000,
+      "size": 297.29,
+      "location": "Dublin, Ireland",
+      "amenities": ["Penthouse", "Rooftop Terrace", "Gym"],
+      "image": "/prythian-real-estate/src/assets/images/house5.jpg"
+    },
+    {
+      "id": 6,
+      "price": 420000,
+      "size": 195.1,
+      "location": "Belfast, Ireland",
+      "amenities": ["Garden", "Garage", "Fireplace"],
+      "image": "/prythian-real-estate/src/assets/images/house6.jpg"
+    },
+    {
+      "id": 7,
+      "price": 275000,
+      "size": 130.06,
+      "location": "Derry, Ireland",
+      "amenities": ["Patio", "Smart Home", "Hardwood Floors"],
+      "image": "/prythian-real-estate/src/assets/images/house7.jpg"
+    },
+    {
+      "id": 8,
+      "price": 640000,
+      "size": 260.13,
+      "location": "Kilkenny, Ireland",
+      "amenities": ["City View", "Gym", "24/7 Security"],
+      "image": "/prythian-real-estate/src/assets/images/house8.jpg"
+    },
+    {
+      "id": 9,
+      "price": 380000,
+      "size": 176.52,
+      "location": "Waterford, Ireland",
+      "amenities": ["Pool", "Garage", "BBQ Area"],
+      "image": "/prythian-real-estate/src/assets/images/house9.jpg"
+    },
+    {
+      "id": 10,
+      "price": 510000,
+      "size": 213.68,
+      "location": "Limerick, Ireland",
+      "amenities": ["Beach Access", "Garden", "Fireplace"],
+      "image": "/prythian-real-estate/src/assets/images/house10.jpg"
+    },
+    {
+      "id": 11,
+      "price": 295000,
+      "size": 139.35,
+      "location": "Cork, Ireland",
+      "amenities": ["Garage", "Solar Panels", "Smart Thermostat"],
+      "image": "/prythian-real-estate/src/assets/images/house11.jpg"
+    },
+    {
+      "id": 12,
+      "price": 760000,
+      "size": 325.16,
+      "location": "Dublin, Ireland",
+      "amenities": ["Rooftop Deck", "Gym", "Smart Home"],
+      "image": "/prythian-real-estate/src/assets/images/house12.jpg"
+    },
+    {
+      "id": 13,
+      "price": 430000,
+      "size": 195.1,
+      "location": "Galway, Ireland",
+      "amenities": ["Garage", "Patio", "Hardwood Floors"],
+      "image": "/prythian-real-estate/src/assets/images/house13.jpg"
+    },
+    {
+      "id": 14,
+      "price": 495000,
+      "size": 204.39,
+      "location": "Belfast, Ireland",
+      "amenities": ["Garden", "Fireplace", "Walk-in Closet"],
+      "image": "/prythian-real-estate/src/assets/images/house14.jpg"
+    },
+    {
+      "id": 15,
+      "price": 340000,
+      "size": 157.94,
+      "location": "Derry, Ireland",
+      "amenities": ["Garage", "Terrace", "Mountain View"],
+      "image": "/prythian-real-estate/src/assets/images/house15.jpg"
+    },
+    {
+      "id": 16,
+      "price": 670000,
+      "size": 268.0,
+      "location": "Kilkenny, Ireland",
+      "amenities": ["Pool", "Gym", "Gated Community"],
+      "image": "/prythian-real-estate/src/assets/images/house16.jpg"
+    },
+    {
+      "id": 17,
+      "price": 285000,
+      "size": 134.71,
+      "location": "Waterford, Ireland",
+      "amenities": ["Pool", "Garage", "BBQ Area"],
+      "image": "/prythian-real-estate/src/assets/images/house17.jpg"
+    },
+    {
+      "id": 18,
+      "price": 560000,
+      "size": 223.0,
+      "location": "Dublin, Ireland",
+      "amenities": ["Casino View", "Smart Home", "24/7 Security"],
+      "image": "/prythian-real-estate/src/assets/images/house18.jpg"
+    },
+    {
+      "id": 19,
+      "price": 480000,
+      "size": 204.39,
+      "location": "Limerick, Ireland",
+      "amenities": ["Heated Floors", "Fireplace", "Garage"],
+      "image": "/prythian-real-estate/src/assets/images/house19.jpg"
+    },
+    {
+      "id": 20,
+      "price": 520000,
+      "size": 213.68,
+      "location": "Cork, Ireland",
+      "amenities": ["Patio", "Smart Home", "Hardwood Floors"],
+      "image": "/prythian-real-estate/src/assets/images/house20.jpg"
+    }
+  ]
+}
