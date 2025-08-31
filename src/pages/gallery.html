@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="ico" href="/prythian-real-estate/logo.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery | Prythian Real Estate</title>
+    <script type="module" crossorigin src="/prythian-real-estate/assets/gallery-DYx79uDV.js"></script>
+    <link rel="modulepreload" crossorigin href="/prythian-real-estate/assets/modulepreload-polyfill-B5Qt9EMX.js">
+    <link rel="stylesheet" crossorigin href="/prythian-real-estate/assets/gallery-CRfgNXkM.css">
+    <link rel="stylesheet" crossorigin href="/prythian-real-estate/assets/main-BPUfUT6V.css">
+  </head>
+  <body>
+    <div id="#home" class="homepage">
+      <header class="header-links">
+        <nav>
+          <div class="dropdown">
+            <a href="/index.html" class="dropbtn">Home</a>
+            <div class="submenu">
+              <ul>
+                <li><a href="/index.html#about-us">About Us</a></li>
+                <li><a href="/index.html#services">Services</a></li>
+                <li><a href="/index.html#testimonials">Testimonials</a></li>
+              </ul>
+            </div>
+          </div>
+          <a href="/prythian-real-estate/src/pages/gallery.html">Gallery</a>
+          <a href="/prythian-real-estate/src/pages/contacts.html">Contacts</a>
+        </nav>
+      </header>
+
+      <h1>All Properties</h1>
+      <hr />
+
+      <div class="search">
+        <input type="search" placeholder="Search.." />
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAA/xJREFUWIW9lm1olWUYx3/X/Zxz9kLqCENj9EKEpKLHbQcsR85JZSrznJAzKJ3bvmyUfQn6sAhqUUYwKkiCVuraNIkz2pxHy0QsyJLgsDOKgWJkiaJTQ1e5nR333Fcf8gy1njN39vL/9MD9f67/j4v7urmEcdS/I3r3SOD6elGqQBeCzgOZDQwAZ1E9puLsKzkd/FGam+149W6XZAtO+9OvCLxo4ZJAXJSEGgawOqiY+Qa93wprBCpRfjGGpuCWnvikAfo6wmtU2QucEaEpWNNzWAT1KpJsixQh+jLCS6BH3VTe5lBj52BOAMmO8FaU9wReC54uaZlIW3/eFb7PdehWKMTKupL6fb9NCKDv00i1iu5W1Whp3f79dxp8s36IRQsKhtOfozw84ks/9ujmr/7M5jeZj5/awktUtA3Ymms4wIrqzmE3ZZ8VYTjPDewezz8G4Iq8C9pVUtuzI9fwjEKN8SHrczYCT/a2R9aOC9DbHn5CRB93RV+dbHhGpZu6fkd1u6DvqHpPmwEQoc4ie0Nb4memCgDADWgLsKi3PVLqCZBobfCjrDNI91SGA4Sei18GvnPEhj0BnMDFxUDRaGr06FQD3NARiyn3OvQhthi4HGqMD01HuqBngGKvc4Mx94AMTEc4gEUuIMz3BFDLX8Ds6QJAZQ6K57NsxNHzwL3a3Gy8TJMkKAbOeQKkrTkJmL4H+pZOR7wYyoATngDLa7v/AL7HeI9KrorFog7KerA9ngAAqnwBUtsfiwamEmDB0PWNgN/IyJGsAKnCwCcKvvTwyPNTFZ5obfCr6DZRbQluOXwtK8CK6s5ho7yOyBuJtqpHpgLAyR/YBhSISb2fzXfrPtAe7lBYnsasuHE3clKyfUOtIB9ZzOrS2u7j2by3jN4VO9gAXAigx3PphCrS2xFuAtllkbfHC4f/WclOfbA27++iwMdAWJE3B92rH1bWf5sar1DvnvAicWlBKAeOoSwXtauW1cX7JwQwVrAjUiOqb/3rks8M2uPLDyQXV3emM57E3qq5zqh5CuUZIILwtYt9oezXsrN9DyZ3IqzBuhUl9QdOTRgA4Ju2VflznNl1orIRqAD8KAMIQ8A8oFDggiqHjGO3B2vivZl/Y7Gos2AovccK5WJlpdeCmhXgZiVao3N8+SMPgVNsxb0Lay5Zdc+V1cVPeq3sidYGv5N/sROxS0TtymW1B/7zJN8xQK7qj0UD6VS6C5UFrjEVoZqu8zMKAGOr+kEV5l5XU3nziM8IAECitarQ5JlDIsxyfKOrl246eAVuewemU6HG+JAdCVQBo3bU9+WJnRtmwQx2IKNkW6QIo0dBrxlJPT1jHciopH7fVZ9f1wKz1BaW/wNSopAWeN6GBQAAAABJRU5ErkJggg==" />
+      </div>
+
+      <div class="filters">
+        <label for="sort">Sort by price</label>
+        <select id="sort">
+          <option value="asc">Lowest to Highest</option>
+          <option value="desc">Highest to Lowest</option>
+        </select>
+
+        <label for="size">Min. Size (m²)</label>
+        <input type="number" id="size" placeholder="e.g. 100" />
+
+        <label for="price">Max. Price (€):</label>
+        <input type="number" id="price" placeholder="e.g. 500000" />
+
+        <label for="location">Location</label>
+        <select id="location">
+          <option value="">All</option>
+          <option value="Dublin, Ireland">Dublin</option>
+          <option value="Cork, Ireland">Cork</option>
+          <option value="Galway, Ireland">Galway</option>
+          <option value="Limerick, Ireland">Limerick</option>
+          <option value="Belfast, Ireland">Belfast</option>
+          <option value="Derry, Ireland">Derry</option>
+          <option value="Kilkenny, Ireland">Kilkenny</option>
+          <option value="Waterford, Ireland">Waterford</option>
+        </select>
+
+        <label for="amenities">Amenities</label>
+        <input type="text" id="amenities" placeholder="e.g. Pool, Garage" />
+
+        <button id="apply-filters">Filter</button>
+      </div>
+
+      <div id="properties-container"></div>
+      <button id="show-more">Show More</button>
+      <div id="pagination-controls"></div>
+    </div>
+
+    <footer>
+      <h4>&copy; 2025 <span>Prythian Real Estate</span></h4>
+      <img class="logo-image" src="/prythian-real-estate/assets/logo-Bxldv48o.png" />
+
+      <a href="#"
+        ><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAALpJREFUWIXt0NEOwTAUxvF28QKCEu//Bl5A4kYQCUvwHtzyd3PEMu021e7G+a62nrXfbzVGo4kM4IArcAOmfZdPgCPvXIB5X+UOKPnMKftN1P78DNzleZf9JjzlswpglBXhK5f1F6AAhlkQofI6QN7TIprKfYCkiLbyECAZAtjKASXgAt94ATIbAweZ72MAS2ATKm8DVBBrYPE1oCOyEdAl0RtTRQEKUIACFDD4cf/KGFNYax8pMJr/zBP5XqF9BJ4KmwAAAABJRU5ErkJggg==" alt="Back to top"
+      /></a>
+    </footer>
+  </body>
+</html>
