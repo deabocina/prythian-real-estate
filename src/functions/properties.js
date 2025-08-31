@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let visibleItems = 5;
   const itemsPerPage = 10;
 
-  fetch("/src/data/properties.json")
+  fetch("/prythian-real-estate/data/properties.json")
     .then((response) => response.json())
     .then((data) => {
       allProperties = data.houses;

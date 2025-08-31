@@ -5,16 +5,19 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "preview": "vite preview",
-    "compile": "sass src/styles.scss",
     "lint": "npx stylelint ./src/styles/**/*.scss"
   },
   "devDependencies": {
     "@eslint/js": "^9.24.0",
+    "@types/node": "^24.3.0",
     "eslint": "^9.24.0",
     "eslint-config-prettier": "^10.1.1",
     "eslint-plugin-prettier": "^5.2.6",
+    "gh-pages": "^6.3.0",
     "globals": "^16.0.0",
     "sass": "^1.86.0",
     "stylelint": "^16.18.0",
