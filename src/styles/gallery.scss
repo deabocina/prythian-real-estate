@@ -230,50 +230,143 @@ hr {
 }
 
 // RESPONSIVE
-@media (max-width: 1024px) {
+@media (max-width: 1024px) and (min-width: 769px) {
+  .search-wrapper {
+    margin: 30px 20px 40px;
+  }
+
   .gallery-section {
     flex-direction: column;
     align-items: center;
+    gap: 25px;
 
     .filters {
-      width: 100%;
-      flex: none;
-      margin-bottom: 30px;
+      width: 90%;
+      padding: 25px;
+      gap: 18px;
 
       input,
       select {
         width: 100%;
-        max-width: 300px;
+        max-width: 250px;
+        padding: 12px 14px;
       }
 
       #apply-filters {
-        width: 80%;
+        width: 85%;
+        padding: 12px 25px;
         margin: 0 auto;
       }
     }
 
     #properties-container {
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      width: 100%;
+      padding: 0 15px;
+      box-sizing: border-box;
+
+      .property-card {
+        .property-image {
+          height: 220px;
+        }
+        .property-info {
+          padding: 18px;
+
+          h3 {
+            font-size: 1.1rem;
+          }
+          p {
+            font-size: 0.9rem;
+          }
+        }
+      }
+    }
+  }
+
+  #show-more {
+    width: 85%;
+    margin: 35px auto;
+    padding: 11px 25px;
+  }
+
+  #pagination-controls {
+    gap: 10px;
+    margin-bottom: 50px;
+
+    button {
+      padding: 9px 14px;
+      font-size: 0.9rem;
     }
   }
 }
 
 @media (max-width: 768px) {
   .search-wrapper {
-    margin: 0 20px 40px 20px;
+    margin: 20px 10px 30px;
   }
+
   .gallery-section {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
     .filters {
+      width: 80%;
+      padding: 20px;
+      gap: 15px;
+
       input,
       select {
         width: 100%;
-        max-width: 250px;
+        max-width: 200px;
+        padding: 10px 12px;
       }
 
       #apply-filters {
-        width: 80%;
-        margin: 0 auto;
+        width: 90%;
+        padding: 10px 20px;
       }
+    }
+
+    #properties-container {
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 15px;
+      width: 100%;
+      padding: 0 10px;
+      box-sizing: border-box;
+
+      .property-card {
+        .property-image {
+          height: 200px;
+        }
+        .property-info {
+          padding: 15px;
+
+          h3 {
+            font-size: 1rem;
+          }
+          p {
+            font-size: 0.85rem;
+          }
+        }
+      }
+    }
+  }
+
+  #show-more {
+    width: 90%;
+    margin: 30px auto;
+    padding: 10px 20px;
+  }
+
+  #pagination-controls {
+    gap: 8px;
+    margin-bottom: 40px;
+
+    button {
+      padding: 8px 12px;
+      font-size: 0.85rem;
     }
   }
 }
