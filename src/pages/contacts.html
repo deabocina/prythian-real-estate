@@ -15,28 +15,27 @@
     <title>Contact Us | Prythian Real Estate</title>
   </head>
   <body>
-    <div id="#home" class="homepage">
-      <header class="header-links">
-        <nav>
-          <div class="dropdown">
-            <a href="/prythian-real-estate/" class="dropbtn">Home</a>
-            <div class="submenu">
-              <ul>
-                <li><a href="/prythian-real-estate/#about-us">About Us</a></li>
-                <li><a href="/prythian-real-estate/#services">Services</a></li>
-                <li>
-                  <a href="/prythian-real-estate/#testimonials">Testimonials</a>
-                </li>
-              </ul>
-            </div>
+      <header>
+        <div class="container">
+          <div class="logo">
+            <a href="/prythian-real-estate/"
+              ><img
+                src="/src/assets/icons/logo.png"
+                alt="Logo"
+                class="footer-logo"
+            /></a>
+            <h1>Prythian Real Estate</h1>
           </div>
-          <a href="/prythian-real-estate/src/pages/gallery.html">Gallery</a>
-          <a href="/prythian-real-estate/src/pages/contacts.html">Contacts</a>
-        </nav>
+          <nav>
+            <a href="/prythian-real-estate/">Home</a>
+            <a href="/prythian-real-estate/src/pages/gallery.html">Gallery</a>
+            <a href="/prythian-real-estate/src/pages/contacts.html">Contact</a>
+          </nav>
+        </div>
       </header>
 
       <section id="contacts">
-        <h1>Contact Us</h1>
+        <h1>Contact Us</h1><hr />
 
         <div class="contact-container">
           <div class="contact-form">
@@ -46,12 +45,7 @@
               enctype="text/plain"
             >
               <input type="text" name="name" placeholder="Full Name" required />
-              <input
-                type="email"
-                name="email"
-                placeholder="E-mail"
-                required
-              /><br />
+              <input type="email" name="email" placeholder="E-mail" required />
               <textarea
                 name="message"
                 rows="8"
@@ -87,32 +81,43 @@
                 <img src="/src/assets/icons/clock.png" />
                 <p>Mon-Fri: 09-16h</p>
               </div>
-
-              <div class="social-icons">
-                <a href="#"
-                  ><img src="/src/assets/icons/facebook.png" alt="Facebook"
-                /></a>
-                <a href="#"
-                  ><img src="/src/assets/icons/instagram.png" alt="Instagram"
-                /></a>
-                <a href="#"
-                  ><img src="/src/assets/icons/youtube.png" alt="YouTube"
-                /></a>
-              </div>
             </div>
           </div>
         </div>
+
         <div id="map" style="height: 250px; width: 100%"></div>
       </section>
+
+      <footer>
+        <div class="footer-content">
+          <a href="#"
+            ><img
+              src="/src/assets/icons/logo.png"
+              alt="Logo"
+              class="footer-logo"
+          /></a>
+
+          <h2>Prythian Real Estate</h2>
+          <p>Exquisite properties. Unmatched service.</p>
+          <div class="socials">
+            <a href="#"
+              ><img src="/src/assets/icons/facebook.png" alt="Facebook"
+            /></a>
+            <a href="#"
+              ><img src="/src/assets/icons/instagram.png" alt="Instagram"
+            /></a>
+            <a href="#"
+              ><img src="/src/assets/icons/youtube.png" alt="Youtube"
+            /></a>
+          </div>
+        </div>
+        <p class="copyright">
+          © 2025 Prythian Real Estate. All rights reserved.
+        </p>
+        <a href="#" class="back-to-top"
+          ><img src="/src/assets/icons/up-arrow.png" alt="Back to top"
+        /></a>
+      </footer>
     </div>
-
-    <footer>
-      <h4>&copy; 2025 <span>Prythian Real Estate</span></h4>
-      <img class="logo-image" src="/src/assets/icons/logo.png" />
-
-      <a href="#"
-        ><img src="/src/assets/icons/up-arrow.png" alt="Back to top"
-      /></a>
-    </footer>
   </body>
 </html>

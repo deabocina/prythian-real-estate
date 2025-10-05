@@ -2,185 +2,172 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="ico" href="/logo.ico" />
-    <link rel="stylesheet" href="/src/main.scss" />
-    <link rel="stylesheet" href="/src/styles/home.scss" />
+    <link rel="icon" href="/logo.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home | Prythian Real Estate</title>
+    <link rel="stylesheet" href="/src/main.scss" />
+    <link rel="stylesheet" href="/src/styles/home.scss" />
     <script type="module" src="/src/main.js"></script>
   </head>
   <body>
-    <div id="app"></div>
-
-    <div id="#home" class="homepage">
-      <header class="header-links">
+    <header>
+      <div class="container">
+        <div class="logo">
+          <a href="/prythian-real-estate/"
+            ><img
+              src="/src/assets/icons/logo.png"
+              alt="Logo"
+              class="footer-logo"
+          /></a>
+          <h1>Prythian Real Estate</h1>
+        </div>
         <nav>
-          <div class="dropdown">
-            <a href="/prythian-real-estate/" class="dropbtn">Home</a>
-            <div class="submenu">
-              <ul>
-                <li><a href="#about-us">About Us</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
-              </ul>
-            </div>
-          </div>
+          <a href="/prythian-real-estate/">Home</a>
           <a href="/prythian-real-estate/src/pages/gallery.html">Gallery</a>
-          <a href="/prythian-real-estate/src/pages/contacts.html">Contacts</a>
+          <a href="/prythian-real-estate/src/pages/contacts.html">Contact</a>
         </nav>
-      </header>
+      </div>
+    </header>
 
-      <div class="home-desc">
-        <img
-          class="logo-image"
-          src="/src/assets/icons/logo.png"
-          alt="Prythian Real Estate"
-        />
-        <h1>Prythian Real Estate</h1>
+    <section class="hero">
+      <div class="overlay"></div>
+      <div class="hero-content">
+        <h2>Luxury Meets Lifestyle</h2>
         <hr />
         <p>
-          Buy the home that fits your lifestyle. Your perfect place is just a
-          step away.
+          Discover timeless elegance and modern comfort in our exclusive real
+          estate collection.
         </p>
+        <div class="hero-buttons">
+          <a href="#about-us" class="cta-btn">Explore More</a>
+          <a href="#services" class="cta-btn">Our Services</a>
+          <a href="#testimonials" class="cta-btn secondary-btn"
+            >What Clients Say</a
+          >
+        </div>
       </div>
-    </div>
-
-    <section id="about-us">
-      <h2>About Us</h2>
-      <p>
-        At Prythian Real Estate, we pride ourselves on offering a wide range of
-        high-quality properties that cater to every need. Whether you are buying
-        your first home, investing in commercial properties, or looking for a
-        luxurious vacation villa, we have the perfect options for you.
-      </p>
-
-      <p>
-        Our expert team has extensive knowledge of the real estate market and
-        local communities, ensuring that we always bring the best deals and the
-        most accurate market insights to our clients.
-      </p>
-
-      <h3>Our Mission</h3>
-      <p>
-        Our mission is to make the process of buying, selling, and renting
-        properties as seamless as possible. We are dedicated to offering
-        transparent, professional, and personalized services that exceed our
-        clients' expectations.
-      </p>
-
-      <h3>Why Choose Us?</h3>
-      <ul>
-        <li>
-          <strong>Experienced Team:</strong> Over 15 years of expertise in the
-          real estate industry.
-        </li>
-        <li>
-          <strong>Personalized Service:</strong> Tailored solutions to match
-          your unique needs and budget.
-        </li>
-        <li>
-          <strong>Wide Selection:</strong> Access to a diverse portfolio of
-          properties, including residential, commercial, and luxury estates.
-        </li>
-        <li>
-          <strong>Trusted Network:</strong> Our strong relationships with
-          contractors, brokers, and other real estate professionals ensure
-          smooth transactions.
-        </li>
-      </ul>
     </section>
 
-    <section id="services">
+    <section id="about-us" class="about">
+      <div class="content">
+        <h2>About Us</h2>
+        <p>
+          We offer a wide range of high-quality properties, tailored for every
+          need – from first homes to luxurious vacation villas. We strive to
+          make buying, selling, and renting properties seamless and transparent
+          for our clients.
+        </p>
+      </div>
+      <div class="image">
+        <img src="/src/assets/images/house2.jpg" alt="Luxury House" />
+      </div>
+    </section>
+
+    <section id="services" class="services">
       <h2>Our Services</h2>
-      <p>
-        We provide a wide range of real estate services, tailored to meet the
-        needs of individuals, investors, and businesses alike. Whether you're
-        looking to buy, sell, or rent, we offer the expertise and resources to
-        guide you through every step of the process.
-      </p>
-
-      <ul>
-        <li>
-          <strong>Property Buying & Selling:</strong> We assist you in buying
-          and selling both residential and commercial properties with expert
-          advice and support.
-        </li>
-        <li>
-          <strong>Real Estate Investment Advice:</strong> Our team provides
-          tailored advice for real estate investors, helping you make smart,
-          profitable investments.
-        </li>
-        <li>
-          <strong>Property Management:</strong> We handle all aspects of
-          property management, including tenant placement, property maintenance,
-          and legal compliance.
-        </li>
-        <li>
-          <strong>Market Analysis & Reports:</strong> We provide in-depth market
-          analysis and reports to help you make informed decisions on your
-          property investments.
-        </li>
-      </ul>
-
-      <h3>Additional Services</h3>
-      <ul>
-        <li>
-          <strong>Property Valuation:</strong> Get accurate, professional
-          property valuations to help you understand the true value of your real
-          estate.
-        </li>
-        <li>
-          <strong>Mortgage Assistance:</strong> Our team helps you navigate the
-          mortgage process, connecting you with trusted lenders and offering
-          expert advice.
-        </li>
-        <li>
-          <strong>Relocation Services:</strong> If you're moving to a new city,
-          we assist with finding the perfect property and making the relocation
-          process as smooth as possible.
-        </li>
-      </ul>
+      <div class="services-grid">
+        <div class="service">
+          <img src="/src/assets/icons/house.png" alt="" />
+          <h3>Property Buying & Selling</h3>
+          <p>
+            We assist in buying and selling residential and commercial
+            properties with expert guidance.
+          </p>
+        </div>
+        <div class="service">
+          <img src="/src/assets/icons/investment.png" alt="" />
+          <h3>Investment Advice</h3>
+          <p>
+            Our experts provide tailored investment advice for profitable
+            property ventures.
+          </p>
+        </div>
+        <div class="service">
+          <img src="/src/assets/icons/management.png" alt="" />
+          <h3>Property Management</h3>
+          <p>
+            We handle maintenance, tenant placement, and compliance for your
+            properties.
+          </p>
+        </div>
+        <div class="service">
+          <img src="/src/assets/icons/report.png" alt="" />
+          <h3>Market Analysis</h3>
+          <p>
+            Receive in-depth market analysis and reports to make informed
+            property decisions.
+          </p>
+        </div>
+      </div>
     </section>
 
-    <section id="testimonials">
+    <section id="featured" class="featured">
+      <h2>Featured Properties</h2>
+      <div class="grid">
+        <div class="property">
+          <img src="/src/assets/images/house11.jpg" alt="Seaside Villa" />
+          <h3>Seaside Villa</h3>
+          <p>Modern architecture with ocean views.</p>
+        </div>
+        <div class="property">
+          <img src="/src/assets/images/house3.jpg" alt="Urban Loft" />
+          <h3>Urban Loft</h3>
+          <p>Minimalist elegance in the city center.</p>
+        </div>
+        <div class="property">
+          <img src="/src/assets/images/house0.jpg" alt="Countryside Mansion" />
+          <h3>Countryside Mansion</h3>
+          <p>Where luxury meets serenity.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
       <h2>What Our Clients Say</h2>
-      <div class="testimonial">
-        <p>
-          "Prythian Real Estate helped us find our dream home. Their team was so
-          supportive throughout the entire process, and they went above and
-          beyond to make sure everything went smoothly."
-        </p>
-        <p><strong>- Sarah & John, Home Buyers</strong></p>
-      </div>
-      <div class="testimonial">
-        <p>
-          "We had an excellent experience working with Prythian for our
-          commercial property investment. Their market knowledge and dedication
-          made the entire experience effortless."
-        </p>
-        <p><strong>- Michael, Real Estate Investor</strong></p>
+      <div class="testimonial-grid">
+        <div class="testimonial">
+          <p>
+            "Prythian Real Estate helped us find our dream home. Their team was
+            so supportive throughout the entire process."
+          </p>
+          <h4>- Sarah & John</h4>
+        </div>
+        <div class="testimonial">
+          <p>
+            "We had an excellent experience working with Prythian for our
+            commercial property investment. Their market knowledge and
+            dedication made the entire experience effortless."
+          </p>
+          <h4>- Michael</h4>
+        </div>
       </div>
     </section>
-
-    <article class="slideshow-container">
-      <div>
-        <img class="my-slides" src="/src/assets/images/house0.jpg" />
-        <img class="my-slides" src="/src/assets/images/house1.jpg" />
-        <img class="my-slides" src="/src/assets/images/house2.jpg" />
-        <img class="my-slides" src="/src/assets/images/house3.jpg" />
-        <img class="my-slides" src="/src/assets/images/house4.jpg" />
-      </div>
-
-      <button class="display-left" onclick="changeImg(-1)">&#10094;</button>
-      <button class="display-right" onclick="changeImg(1)">&#10095;</button>
-    </article>
 
     <footer>
-      <h4>&copy; 2025 <span>Prythian Real Estate</span></h4>
-      <img class="logo-image" src="/src/assets/icons/logo.png" />
+      <div class="footer-content">
+        <a href="#"
+          ><img src="/src/assets/icons/logo.png" alt="Logo" class="footer-logo"
+        /></a>
 
-      <a href="#"
-        ><img src="src/assets/icons/up-arrow.png" alt="Back to top"
+        <h2>Prythian Real Estate</h2>
+        <p>Exquisite properties. Unmatched service.</p>
+        <div class="socials">
+          <a href="#"
+            ><img src="/src/assets/icons/facebook.png" alt="Facebook"
+          /></a>
+          <a href="#"
+            ><img src="/src/assets/icons/instagram.png" alt="Instagram"
+          /></a>
+          <a href="#"
+            ><img src="/src/assets/icons/youtube.png" alt="Youtube"
+          /></a>
+        </div>
+      </div>
+      <p class="copyright">
+        © 2025 Prythian Real Estate. All rights reserved.
+      </p>
+      <a href="#" class="back-to-top"
+        ><img src="/src/assets/icons/up-arrow.png" alt="Back to top"
       /></a>
     </footer>
   </body>
