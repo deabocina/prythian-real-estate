@@ -87,7 +87,8 @@ $transition: all 0.3s ease-in-out;
         transition: $transition;
 
         &:hover {
-          background: lighten($gold, 8%);
+          background: $gold;
+          color: $text-light;
         }
       }
     }
